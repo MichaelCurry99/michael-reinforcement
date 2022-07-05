@@ -6,36 +6,40 @@ Answer the questions below, then complete the exercises
 
 - Question 1 
     What is an array in JS?
-
+     An array can hold and store strings as well as numbers to define data.
 - Question 2
 In your own words, why do we use arrays in Javascript
-
+    To store data.
 - Question 3
 In your own words, when should we use an array?
-
+     When you need to store data of something.
 - Question 4
  What are 3 kinds of array methods, and how do we use them?
-
+pop, push, and shift.
  - Question 5
  What ar two examples of higher order Array methods? 
-
+Array.prototype.some and Array.prototype.every
 
 
 #### Exercise 1
 1. Create an array.
 2. Add four names to the array.
 3. Print the array one entry at a time.
-
+let school = ["books","paper","pencil","pen"];
+console.log(school);
 #### Exercise 2
 1. Create an array with 5 numbers in it.
 2. Print the numbers one entry at a time.
+let numbers = ["9","8","6","45","18"];
+console.log(numbers);
 
 #### Exercise 3
 1. Create an array with 4 names.
 2. Print the third item in the array.
 3. Delete the second item.
 4. Print the third item in the array again.
-
+let names = ["Herbert","Kyle","Michael","Steph"];
+console.log(names[0],names[1],names[3]);
 
 ### Exercise 4 
 Create the array [5,3,7, 4]. Pass the array to a new function to do the following:
@@ -44,6 +48,7 @@ Print the array.
 Print the 3rd element of the numberList.
 Delete the second element.
 Print the 3rd index element.
+let array = ["5","3","7","4"];
 
 
 ## NOTE: Below are exercise that require knowlede of Higher Order Array Methods. Watch the attached video to gain more understanding of how to use these methods:

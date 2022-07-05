@@ -6,7 +6,7 @@ Answer the questions below, then complete the exercises
 
 - Question 1 
     What is a loop?
-
+    When I use a loop, it helps me gather more detail of data that is already given before it.
 - Question 2
 In your own words, why do we use loops in Javascript?
 

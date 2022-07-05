@@ -13,25 +13,25 @@
   const eggs = [81, 75, 75, 81, 32, 75, 81, 75, 81];
 
   // 1. Show array apples.
-
+         console.log(apples);
   // 2. Show how many elements are in array apples.
-
+        console.log(apples[i]);
   // 3. Calculate the sum of the numbers in array apples.
-
+        console.log(apples[i + i]);
   // show the final result
 
   // 4. Show array bakers.
-
+        console.log(bakers);
   // 5. Calculate the sum of the numbers in array bakers.
-
+        console.log(bakers[i]);
   // show the final result
 
   // 6a. Calculate the sum of the numbers in the even indices of array bakers.
-
+        console.log(bakers[3] + bakers[4] + bakers[5] + bakers[6]);
   // show the final result
 
   // 6b. Calculate the sum of the even numbers in array bakers.
-
+  console.log(bakers[3] + bakers[4] + bakers[5] + bakers[6]);
   // show the final result
 
   // 7. Show array cards.

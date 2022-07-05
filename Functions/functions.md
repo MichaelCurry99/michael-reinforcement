@@ -6,16 +6,16 @@ Answer the questions below, then complete the exercises
 
 - Question 1 
     What is a function in JS?
-
+    A function is what holds many types of coding, and usually has paramaters to have it working correctly.
 - Question 2
 In your own words, why do we use functions in Javascript?
-
+We use them to call different parts of our code.
 - Question 3
 In your own words, when should we use a function?
-
+     Use a function to hold in specific code to perform specific things.
 - Question 4
  What is a higher order function in Javascript? (requires research on your own ;))
-
+     
 
 
 
@@ -27,16 +27,36 @@ In your own words, when should we use a function?
 
 Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
 
+function max(6,18){
+if(6<18){
+alert("6 is less than 18.");
+}
+else if(18<6){
+alert("18 is greater than 6.");
+}
+
+return 18;
+}
+max()
 
 ### Exercise 2
 
 Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 
+function maxOfThree(5,8,6){
 
-
+    if(8<6<5){
+        alert("8 is greater than both 5 and 6");
+    }
+    else if(6<8>5){
+       alert("6 is less than 8, while 5 is also less than 8.")
+    }
+}
+maxOfThree()
 ### Exercise 3
 
 Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+
 
 
 ### Exercise 4 
