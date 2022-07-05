@@ -40,9 +40,11 @@ let user = alert("Enter your extra credit."){
     Create a variable called balance and save it after asking the user “What is your balance?”. Create a variable called deduction and save it when asking the user “How much do you want to deduct?” Print the remaining balance after subtracting the deduction.
 
     let balance;
-    let deduction;
-    let balance = alert("What is your balance?"){
-        console.log()};
-    
-    let deduction = alert("How much do you want to deduct?"){
-        console.log()};
+let deduction;
+let userAns = [];
+balance = prompt("What is your balance?")
+   console.log(balance);
+
+deduction = prompt("How much do you want to deduct?")
+    console.log(deduction);
+    console.log(balance - deduction);

@@ -57,17 +57,41 @@ maxOfThree()
 
 Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
+function character(one,two){
 
+let one = ["one"];
+let two = ["two"];
+
+
+
+}
+character()
 
 ### Exercise 4 
 
 Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
 
+function sum(){
+
+
+}sum()
+
+function multiply(){
+
+
+}multiply
+
 ### Exercise 5 
 Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 
+function reverse(){
+let reverse = ["hey","yeh"];
 
-
+if(reverse[0] === reverse[1]){
+    return:true;
+}
+}
+reverse()
 
 
 

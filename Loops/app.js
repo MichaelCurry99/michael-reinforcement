@@ -35,41 +35,41 @@
   // show the final result
 
   // 7. Show array cards.
-
+console.log(cards);
   // 8. Determine *if* 15 is in array cards, and display the answer.
   // Note: There _is_ a built-in array.includes method to do this.
   //       Usually, you will use that method. But for this
   //       exercise, write it with a loop.
   // Usual way to find if an array has some value, such as 15.
   // show the final result
-
+console.log(cards[11],cards[23]);
   // 9. Determine *where* 15 first appears in array cards.
   // Note: There _is_ a built-in array.indexOf method to do this.
   //       Usually, you will use that method. But for this
   //       exercise, write it with a loop.
   // Usual way to find the index of some value, such as 15:
   // show the final result
-
+  console.log(cards[11],cards[23]);
   // 10. How many times does 15 appear in array cards?
 
   // show the final result
-
+  console.log(cards['15']);
   // 11. How many times does 0, 4 any 13 appear in array cards?
-
+  console.log(cards['0','4','13']);
   // show the final result
 
   // 12. Which positions in array cards hold a 15?
-
+console.log(cards[11],cards[23]);
   // show the final result
 
   // 13. How many numbers are in array cards are even?
-
+console.log(cards.even);
   // show the final result
 
   // 14. Show array dogs.
-
+     console.log(dogs);
   // 15. How large is array dogs?
-
+     console.log(dogs.length);
   // 16. Calculate whether there are more than 8 29s in array dogs.
 
   // 17. Calculate whether there are more than 20 17s and 23s combined.
@@ -77,6 +77,7 @@
   // 18. Calculate how many 29s are in array dogs.
 
   // 19. Calculate how many 23s and 17s combined are in array dogs.
+  console.log()
 
   // YOU CAN STOP HERE -- July 5th, 2022
   // 20. Show array eggs.

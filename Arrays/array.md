@@ -15,11 +15,20 @@ In your own words, when should we use an array?
      When you need to store data of something.
 - Question 4
  What are 3 kinds of array methods, and how do we use them?
-pop, push, and shift.
+    Array.length, Array.splice, and Array.push
  - Question 5
  What ar two examples of higher order Array methods? 
 Array.prototype.some and Array.prototype.every
 
+const myArray = [1,2,3,4,5]
+let myMappedOverArray = myArray.map(function(item,idx){
+  console.log(item)
+}
+
+myArray.map(function(item){
+
+  return console.log(item)
+})
 
 #### Exercise 1
 1. Create an array.
@@ -108,4 +117,6 @@ Given an array of objects with the city name and population, use the filter func
 Given an array of numbers, find the average of them, and log it to the console.
 
 [1, 2, 3, 456, 108115, 45909.15154, 1988.1545, 145e8] => 1812519559.288255
+
+
 
