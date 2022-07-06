@@ -71,13 +71,13 @@ console.log(cards.even);
   // 15. How large is array dogs?
      console.log(dogs.length);
   // 16. Calculate whether there are more than 8 29s in array dogs.
-
+     console.log(dogs('29'));
   // 17. Calculate whether there are more than 20 17s and 23s combined.
-
+     console.log(dogs('20' + '17' + '23'));
   // 18. Calculate how many 29s are in array dogs.
-
+     console.log(dogs('29'));
   // 19. Calculate how many 23s and 17s combined are in array dogs.
-  console.log()
+  console.log(dogs('23' + '17'));
 
   // YOU CAN STOP HERE -- July 5th, 2022
   // 20. Show array eggs.

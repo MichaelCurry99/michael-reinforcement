@@ -72,13 +72,22 @@ Given an array of integers, use the 'map' method to create a new array in which 
 
 [477, 8914, 40461, 599148]; => [954, 17828, 80922, 1198296]
 
+var numbers = Array.prototype.map.call(number, function(digits) {
+        
+[477, 8914, 40461, 599148]; => [954, 17828, 80922, 1198296]
 
+        })
 ### Exercise 6
 
 Given an array of singular nouns, use the map function create a new array that stores the plural noun of each of the words in the first array, and log it to the console (assume that the singular nouns can be made plural by adding a 's').
 
 [ 'pen', 'book', 'code' ] => ['pens', 'books', 'codes']
 
+var school = Array.prototype.map.call(school, function(supplies) {
+        
+[ 'pen', 'book', 'code' ] => ['pens', 'books', 'codes']
+
+        })
 
 ### Exercise 7 
 
@@ -86,6 +95,10 @@ Given an array of costs of different products, use the filter function to create
 
 
 [390, 190, 311.85, 67, 19048, 5000, 670] => [190, 311.85, 67]
+
+const places = (collection) => { [
+[390, 190, 311.85, 67, 19048, 5000, 670] => [190, 311.85, 67]
+];   }
 
 
 
@@ -103,20 +116,27 @@ Given an array of objects with the city name and population, use the filter func
   { "name": "Houston", "population": 2100263 },
 ];
 
-
+const places = (collection) => { [
+  { "name": "Shanghai", "population": 24300000 },
+  { "name": "Los Angeles", "population": 3792621 },
+  { "name": "New Delhi", "population": 21800000 },
+  { "name": "Mumbai", "population": 18400000 },
+  { "name": "Chicago", "population": 2695598 },
+  { "name": "Houston", "population": 2100263 },
+];   }
 
 ### Exercise 9 
 
 (i) Given an array of numbers, find the sum of every element in the array, and log it to the console.
 
-[1, 2, 3, 4, 5] =>  15
-
+let array = [1, 2, 3, 4, 5] =>  15
+console.log(array);
 
 ### Exercise 10 
 
 Given an array of numbers, find the average of them, and log it to the console.
 
-[1, 2, 3, 456, 108115, 45909.15154, 1988.1545, 145e8] => 1812519559.288255
+let array = [1, 2, 3, 456, 108115, 45909.15154, 1988.1545, 145e8] => 1812519559.288255
 
-
+console.log(array.average);
 

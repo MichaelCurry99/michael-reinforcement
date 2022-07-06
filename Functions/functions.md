@@ -16,7 +16,7 @@ In your own words, when should we use a function?
 - Question 4
  What is a higher order function in Javascript? (requires research on your own ;))
      
-
+It's a more detailed concept in using functions.
 
 
 
@@ -73,13 +73,17 @@ Define a function sum() and a function multiply() that sums and multiplies (resp
 
 function sum(){
 
+let sum = [1,2,3,4];
+console.log(sum[0]+[1]+[2]+[3]);
 
 }sum()
 
 function multiply(){
 
+let multiply= [1,2,3,4];
+console.log(multiply[0]*[1]*[2]*[3]);
 
-}multiply
+}multiply()
 
 ### Exercise 5 
 Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
